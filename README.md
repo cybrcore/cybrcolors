@@ -1,11 +1,12 @@
 ![Cybrcolors banner](./assets/banner.jpg)
 
 # Cybrcolors
-Collection of hand-crafted wallpapers in a visual style inspired by the UI design language and color palette popularized by **Cyberpunk 2077**.  
-Mimicking the way ambient light reflects on screen surfaces.
+Collection of hand-crafted color palette, inspired by cyberpunk aesthetics.
 
 > [!WARNING]
-> ### Check out my other project, [Cybrpapers](https://github.com/scherrer-txt/cybrpapers)!
+> ### Check out my other projects:
+> - [Cybrland](https://github.com/scherrer-txt/cybrland), A complete design system and dotfile setup for Hyprland, inspired by cyberpunk aesthetics.  
+> - [Cybrpapers](https://github.com/scherrer-txt/cybrpapers), Collection of hand-crafted cyberpunk wallpapers.
 
 ## Color exports
 
@@ -30,26 +31,6 @@ Mimicking the way ambient light reflects on screen surfaces.
         <a href="files/ansi.md">
             <img src="assets/ansi.png" height="60" />
         </a>
-    </td>
-</tr>
-</table>
-
-## Color themes
-
-<table>
-<tr>
-    <td>
-        <a href="files/kitty.md">
-            <img src="assets/kitty.png" height="60" />
-        </a>
-    </td>
-    <td>
-        <a href="files/micro.md">
-            <img src="assets/micro.png" height="60" />
-        </a>
-    </td>
-    <td>
-        <img src="assets/hyprland.png" height="60" />
     </td>
 </tr>
 </table>
@@ -187,22 +168,22 @@ Mimicking the way ambient light reflects on screen surfaces.
         <td><code>hsl(225, 64%, 13%)</code></td>
 	</tr>
     <tr>
-		<td><img src="assets/palette/pu0.png" width="23"/></td>
-		<td>Purple base (pu0)</td>
+		<td><img src="assets/palette/vi0.png" width="23"/></td>
+		<td>Violet base (vi0)</td>
 		<td><code>#A130F2</code></td>
 		<td><code>rgb(161, 48, 242)</code></td>
         <td><code>hsl(275, 88%, 57%)</code></td>
 	</tr>
     <tr>
-		<td><img src="assets/palette/pu1.png" width="23"/></td>
-		<td>Purple mid (pu1)</td>
+		<td><img src="assets/palette/vi1.png" width="23"/></td>
+		<td>Violet mid (vi1)</td>
 		<td><code>#421666</code></td>
 		<td><code>rgb(66, 22, 102)</code></td>
         <td><code>hsl(273, 65%, 24%)</code></td>
 	</tr>
     <tr>
-		<td><img src="assets/palette/pu2.png" width="23"/></td>
-		<td>Purple dark (pu2)</td>
+		<td><img src="assets/palette/vi2.png" width="23"/></td>
+		<td>Violet dark (vi2)</td>
 		<td><code>#230D37</code></td>
 		<td><code>rgb(35, 13, 55)</code></td>
         <td><code>hsl(271, 62%, 13%)</code></td>
@@ -273,23 +254,44 @@ Mimicking the way ambient light reflects on screen surfaces.
     <tr>
 		<td><img src="assets/palette/or0.png" width="23"/></td>
 		<td>Orange base (or0)</td>
-		<td><code>#F23D18</code></td>
-		<td><code>rgb(242, 61, 24)</code></td>
-        <td><code>hsl(10, 89%, 52%)</code></td>
+		<td><code>#F26118</code></td>
+		<td><code>rgb(242, 97, 24)</code></td>
+        <td><code>hsl(20, 89%, 52%)</code></td>
 	</tr>
     <tr>
 		<td><img src="assets/palette/or1.png" width="23"/></td>
 		<td>Orange mid (or1)</td>
-		<td><code>#631B0E</code></td>
-		<td><code>rgb(99, 27, 14)</code></td>
-        <td><code>hsl(9, 75%, 22%)</code></td>
+		<td><code>#63290E</code></td>
+		<td><code>rgb(99, 41, 14)</code></td>
+        <td><code>hsl(19, 75%, 22%)</code></td>
 	</tr>
     <tr>
 		<td><img src="assets/palette/or2.png" width="23"/></td>
 		<td>Orange dark (or2)</td>
-		<td><code>#330F0B</code></td>
-		<td><code>rgb(51, 15, 11)</code></td>
-        <td><code>hsl(6, 65%, 12%)</code></td>
+		<td><code>#33170B</code></td>
+		<td><code>rgb(51, 23, 11)</code></td>
+        <td><code>hsl(18, 65%, 12%)</code></td>
+	</tr>
+	<tr>
+		<td><img src="assets/palette/pi0.png" width="23"/></td>
+		<td>Pink base (pi0)</td>
+		<td><code>#F230B2</code></td>
+		<td><code>rgb(242, 48, 178)</code></td>
+        <td><code>hsl(320, 88%, 57%)</code></td>
+	</tr>
+    <tr>
+		<td><img src="assets/palette/pi1.png" width="23"/></td>
+		<td>Pink mid (pi1)</td>
+		<td><code>#63164C</code></td>
+		<td><code>rgb(99, 22, 76)</code></td>
+        <td><code>hsl(318, 64%, 24%)</code></td>
+	</tr>
+    <tr>
+		<td><img src="assets/palette/pi2.png" width="23"/></td>
+		<td>Pink dark (pi2)</td>
+		<td><code>#330D2A</code></td>
+		<td><code>rgb(51, 13, 42)</code></td>
+        <td><code>hsl(314, 59%, 13%)</code></td>
 	</tr>
 
 </table>
@@ -327,28 +329,29 @@ Recommended combinations:
 ## Process
 ### Starting values
 ```code
-I used hsl color space (hue, saturation, lightness) to define starting values,
-which are below, to then generate the palette. Final exported colors differ
-after contrast adjustments and black-overlay blending (more on that below).
+I used hsb color space (hue, saturation, brightness) to define starting values,
+to then generate the palette. Final exported colors differ after contrast
+adjustments and black-overlay blending (more on that below).
 
 Starting values:
     Main:
-        red         hsl(0, 80%, 95%)
-        green       hsl(150, 80%, 95%)
-        yellow      hsl(50, 80%, 95%)
-        blue        hsl(225, 80%, 95%)
-        purple      hsl(275, 80%, 95%)
-        cyan        hsl(185, 80%, 80%)
-        orange      hsl(10, 80%, 95%)
+        red         hsb(0, 80%, 95%)
+        green       hsb(150, 80%, 95%)
+        yellow      hsb(50, 80%, 95%)
+        blue        hsb(225, 80%, 95%)
+        violet      hsb(275, 80%, 95%)
+        cyan        hsb(185, 80%, 80%)
+        orange      hsb(10, 80%, 95%)
     UI:
-        black       hsl(225, 60%, 3%)
-        white       hsl(225, 10%, 60%)
-        grey        hsl(225, 40%, 50%)
+        black       hsb(225, 60%, 3%)
+        white       hsb(225, 10%, 60%)
+        grey        hsb(225, 40%, 50%)
 
-Main colors are hsl(x, 80%, 95%), where x is the hue.
+Main colors are hsb(x, 80%, 95%), where x is the hue.
 
-    Except for cyan, which has lightness 80 to
-    accommodate for the fact that cyan is a very bright color.
+    Except for:
+		Cyan		brightness 80 to accommodate for its perceived brightness
+		Orange		saturation 90 to better distinguish it from red
 ```
 ### Naming convention
 ```code
@@ -360,9 +363,10 @@ The goal was for each color to have a different first letter.
         green       gr
         yellow      ye
         blue        bl
-        purple      pu
+        violet      vi
         cyan        cy
         orange      or
+		pink		pi
         black       no       as in: no-signal
         grey        me       as in: metal
 ```
@@ -374,11 +378,12 @@ Main goal was to hit at least AA score in contrast ratio on black:
     gr0 on no0      (AAA)
     ye0 on no0      (AAA)
     bl0 on no0      (AA Large)
-    pu0 on no0      (AA Large)
+    vi0 on no0      (AA Large)
     cy0 on no0      (AAA)
     wh0 on no0      (AA)
     me0 on no0      (AA Large)
     or0 on no0      (AA)
+	pi0 on no0		(AA)
 ```
 ### Generating shades
 ```code
@@ -391,7 +396,8 @@ and avoids potential issues with semi-transparent rgba overlays.
         xy2         20%
 
     Example:
-        re1         = mix(re0, no0, 40%)
+        re1         = color-mix(in srgb, var(--no0), var(--no0) 40%);
+		re2			= color-mix(in srgb, var(--no0), var(--no0) 20%);
 
 Resulting colors are then used to define the final hexadecimal and HSL values.
 ```
@@ -419,10 +425,10 @@ After mixing base color with black base, these are the resulting colors:
         bl0         hsl(225, 87%, 57%)
         bl1         hsl(225, 66%, 24%)
         bl2         hsl(225, 64%, 13%)
-    Purple:
-        pu0         hsl(275, 88%, 57%)
-        pu1         hsl(273, 65%, 24%)
-        pu2         hsl(271, 62%, 13%)
+    Violet:
+        vi0         hsl(275, 88%, 57%)
+        vi1         hsl(273, 65%, 24%)
+        vi2         hsl(271, 62%, 13%)
     Cyan:
         cy0         hsl(185, 67%, 48%)
         cy1         hsl(187, 65%, 20%)
@@ -436,25 +442,17 @@ After mixing base color with black base, these are the resulting colors:
         me1         hsl(227, 26%, 17%)
         me2         hsl(227, 42%, 9%)
     Orange:
-        or0         hsl(10, 89%, 52%)
-        or1         hsl(9, 75%, 22%)
-        or2         hsl(6, 65%, 12%)
+        or0         hsl(20, 89%, 52%)
+        or1         hsl(19, 75%, 22%)
+        or2         hsl(18, 65%, 12%)
+	Pink:
+        pi0         hsl(320, 88%, 57%)
+        pi1         hsl(318, 64%, 24%)
+        pi2         hsl(314, 59%, 13%)
 ```
 
 ---
 
 ## To-do
-- [ ] Adjust or0 to be more recognizable next to re0
+- [x] Adjust or0 to be more recognizable next to re0
 - [ ] Validate contrast and distinguishability under simulated color vision deficiency (CVD) conditions.
-
----
-
-## Disclaimer
-
-This project is an independent, fan-inspired art collection.  
-It is **not affiliated with, endorsed by, or sponsored by CD PROJEKT RED** or *Cyberpunk 2077*.
-
-All images in this repository are original works created by **Kevin Scherrer**, released under the  
-**[CC0 1.0 Universal (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/)** license.
-
-Use, remix, and share freely. Attribution is appreciated but not required.
