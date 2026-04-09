@@ -1,12 +1,16 @@
-![Cybrcolors banner](./assets/banner.jpg)
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybrcolors-banner.png" height=200px/>
 
 # Cybrcolors
-Collection of hand-crafted color palette, inspired by cyberpunk aesthetics.
+> [!NOTE]
+> **Lucid color palette**  
+> 
+> **Version:** v2.0.0  
+> **Status:** Stable (2026-04-02)  
 
-> [!WARNING]
-> ### Check out my other projects:
-> - [cybrdots](https://github.com/scherrer-txt/cybrdots), A complete design system and dotfile setup for Hyprland, inspired by cyberpunk aesthetics.  
-> - [cybrpapers](https://github.com/scherrer-txt/cybrpapers), Collection of hand-crafted cyberpunk wallpapers.
+## Related `cybrcore` Projects
+- [cybrdots](https://github.com/cybrcore/cybrdots) -- Dotfiles for Arch Linux  
+- [cybrpapers](https://github.com/cybrcore/cybrpapers) -- Wallpaper collection  
+- [cybrcore](https://github.com/cybrcore/cybrcore) -- The foundry  
 
 ## Color exports
 
