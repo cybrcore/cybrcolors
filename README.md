@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybrcolors-banner.png" height=200px/>
 
-# Cybrcolors
+# cybrcolors
 > [!NOTE]
 > **Lucid color palette**  
 > 
@@ -10,7 +10,7 @@
 ## Related `cybrcore` Projects
 - [cybrdots](https://github.com/cybrcore/cybrdots) -- Dotfiles for Arch Linux  
 - [cybrpapers](https://github.com/cybrcore/cybrpapers) -- Wallpaper collection  
-- [cybrcore](https://github.com/cybrcore/cybrcore) -- The foundry  
+- [cybrcore](https://github.com/cybrcore/cybrcore) -- The source  
 
 ## Color exports
 
