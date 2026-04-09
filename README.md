@@ -5,8 +5,8 @@ Collection of hand-crafted color palette, inspired by cyberpunk aesthetics.
 
 > [!WARNING]
 > ### Check out my other projects:
-> - [Cybrland](https://github.com/scherrer-txt/cybrland), A complete design system and dotfile setup for Hyprland, inspired by cyberpunk aesthetics.  
-> - [Cybrpapers](https://github.com/scherrer-txt/cybrpapers), Collection of hand-crafted cyberpunk wallpapers.
+> - [cybrdots](https://github.com/scherrer-txt/cybrdots), A complete design system and dotfile setup for Hyprland, inspired by cyberpunk aesthetics.  
+> - [cybrpapers](https://github.com/scherrer-txt/cybrpapers), Collection of hand-crafted cyberpunk wallpapers.
 
 ## Color exports
 
