@@ -1,4 +1,10 @@
-<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybrcolors-banner.png" height=200px/>
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybrcolors-banner-top.png"/>
+
+<p align="center">
+  <a href="https://stand-with-ukraine.pp.ua/">
+    <img alt="standwithukraine" src="https://img.shields.io/badge/Support-Ukraine-FFC93C?style=flat-square&labelColor=07689F">
+  </a>
+</p>
 
 # cybrcolors
 > [!NOTE]
