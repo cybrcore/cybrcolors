@@ -13,55 +13,41 @@
 > **Version:** v2.0.0  
 > **Status:** Stable (2026-04-02)  
 
+<a href="https://github.com/cybrcore/cybrcolors/tree/main/files"><img alt="Download" src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/buttons/button-download.png" height=40px></a>
+
 ## Related `cybrcore` Projects
 - [cybrdots](https://github.com/cybrcore/cybrdots) -- Dotfiles for Arch Linux  
 - [cybrpapers](https://github.com/cybrcore/cybrpapers) -- Wallpaper collection  
 - [cybrcore](https://github.com/cybrcore/cybrcore) -- The source  
 
-## Color exports
+## Showcase
 
-<table>
-<tr>
-    <td>
-        <a href="files/cybrcolors-gtk.css">
-            <img src="assets/gtk-css.png" height="60" />
-        </a>
-    </td>
-    <td>
-        <a href="files/cybrcolors.scss">
-            <img src="assets/scss.png" height="60" />
-        </a>
-    </td>
-    <td>
-        <a href="files/cybrcolors.json">
-            <img src="assets/json.png" height="60" />
-        </a>
-    </td>
-    <td>
-        <a href="files/ansi.md">
-            <img src="assets/ansi.png" height="60" />
-        </a>
-    </td>
-</tr>
-</table>
-
-## In action
-<table>
-    <tr>
-    <td><img src="assets/inspiration/insp-colors.png" width="800"/></td>
-    </tr>
-    <tr>
-    <td><img src="assets/inspiration/insp-kitty.png" width="800"/></td>
-    </tr>
-    <tr>
-    <td><img src="assets/inspiration/insp-lock.png" width="800"/></td>
-    </tr>
-</table>
-
-> Backgrounds are made by me - check [Cybrpapers](https://github.com/scherrer-txt/cybrpapers)
-> 
-> Cyberpunk 2077 logos, visible in Kitty terminal, are made by [Valency](https://www.valencygraphics.com/cyberpunk-2077)
-
+<div>
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/showcase/cybr-hyprland-hero1.png">
+<p align="center">
+  <em>Left-to-right: Neovim, rofi-launcher, cava, fastfetch, custom script ↗</em>
+</p>
+<br>
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/showcase/cybr-hyprland-hero2.png">
+<p align="center">
+  <em>Left-to-right: stacked micro, yazi, broot ↗</em>
+</p>
+<br>
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/showcase/cybr-hyprland-hero4.png">
+<p align="center">
+  <em>Left-to-right: clock, btop, ls ↗</em>
+</p>
+<br>
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/showcase/cybr-obsidian.png">
+<p align="center">
+  <em>Obsidian ↗</em>
+</p>
+<br>
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/showcase/cybr-obsidian-all.jpg">
+<p align="center">
+  <em>Obsidian ↗ (some possible color combinations)</em>
+</p>
+<br>
 
 ## Palette
 <table>
@@ -263,21 +249,21 @@
 	</tr>
     <tr>
 		<td><img src="assets/palette/or0.png" width="23"/></td>
-		<td>Orange base (or0)</td>
+		<td>Orange base (og0)</td>
 		<td><code>#F26118</code></td>
 		<td><code>rgb(242, 97, 24)</code></td>
         <td><code>hsl(20, 89%, 52%)</code></td>
 	</tr>
     <tr>
 		<td><img src="assets/palette/or1.png" width="23"/></td>
-		<td>Orange mid (or1)</td>
+		<td>Orange mid (og1)</td>
 		<td><code>#63290E</code></td>
 		<td><code>rgb(99, 41, 14)</code></td>
         <td><code>hsl(19, 75%, 22%)</code></td>
 	</tr>
     <tr>
 		<td><img src="assets/palette/or2.png" width="23"/></td>
-		<td>Orange dark (or2)</td>
+		<td>Orange dark (og2)</td>
 		<td><code>#33170B</code></td>
 		<td><code>rgb(51, 23, 11)</code></td>
         <td><code>hsl(18, 65%, 12%)</code></td>
@@ -319,7 +305,7 @@ Recommended usage of colors:
     bl0            ---
     cy0            ---
     wh0            small text
-    or0            ---
+    og0            ---
 
     no1 & no2      hover, states, depth
     re1 & re2      hover, states, depth
@@ -330,7 +316,7 @@ Recommended usage of colors:
     cy1 & cy2      hover, states, depth
     wh1 & wh2      hover, states, depth
     me1 & me2      hover, states, depth
-    or1 & or2      hover, states, depth
+    og1 & og2      hover, states, depth
 ```
 Recommended combinations:
 
@@ -392,7 +378,7 @@ Main goal was to hit at least AA score in contrast ratio on black:
     cy0 on no0      (AAA)
     wh0 on no0      (AA)
     me0 on no0      (AA Large)
-    or0 on no0      (AA)
+    og0 on no0      (AA)
 	pi0 on no0		(AA)
 ```
 ### Generating shades
@@ -452,9 +438,9 @@ After mixing base color with black base, these are the resulting colors:
         me1         hsl(227, 26%, 17%)
         me2         hsl(227, 42%, 9%)
     Orange:
-        or0         hsl(20, 89%, 52%)
-        or1         hsl(19, 75%, 22%)
-        or2         hsl(18, 65%, 12%)
+        og0         hsl(20, 89%, 52%)
+        og1         hsl(19, 75%, 22%)
+        og2         hsl(18, 65%, 12%)
 	Pink:
         pi0         hsl(320, 88%, 57%)
         pi1         hsl(318, 64%, 24%)
@@ -464,5 +450,5 @@ After mixing base color with black base, these are the resulting colors:
 ---
 
 ## To-do
-- [x] Adjust or0 to be more recognizable next to re0
 - [ ] Validate contrast and distinguishability under simulated color vision deficiency (CVD) conditions.
+- [x] Adjust og0 to be more recognizable next to re0
